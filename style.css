@@ -1,0 +1,157 @@
+
+.main-body{
+background-color: coral;
+margin: auto;
+
+    
+}.surname{
+    font-size: x-large;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.other-names{
+    font-size: medium;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my-info{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: black;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav .nav-links a{
+    position: relative;
+    margin-left: 50px;
+}
+
+header nav .nav-links a:hover::after{
+    width: 100% ;
+    
+        
+ }
+ .btn{
+    padding: 5px 20px;
+    background: linear-gradient(to left, yellow, green);
+    border-radius: 30px;
+    color: rgb(243, 235, 237);
+    font-size:20px;
+     
+    
+    
+
+ }
+ .button{
+    padding: 5px 20px;
+    background: linear-gradient(to left, yellow, green);
+    border-radius: 30px;
+    color: rgb(243, 235, 237);
+    font-size: 20px;
+    
+ }
+ #my-skillsets a:hover{
+    background-color: red;
+ }
+ .btn:hover{
+color: blueviolet;
+font-size: 40px;
+transition: 1.5s;
+ }
+
+
+
+
+ #My-Portrait img{
+    position: relative;
+    display: flex; 
+    padding: 0.5rem ;
+    justify-content: space-around;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;   
+    color: brown;
+}
+
+.me{
+    display: flex;
+    justify-content: space-between;
+    padding : 2rem;
+} 
+#My-Gallery{
+    max-width: 1400px;
+    margin: auto;
+}
+
+ 
+ .photo__gallery {
+  display:flex;
+  gap:2rem; 
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+
+ }
+
+ .photo__gallery > div {
+  width: 23%;
+  background-color: rgb(239, 219, 219);
+  /* height: 200px; */
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 1em;
+  min-width: 20rem;
+
+
+ }
+
+
+ .photo__gallery  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 800ms ease-in-out;
+ }
+.photo__gallery h2{
+  text-align:center;
+  /* margin: 0 auto;* */
+  }
+  #my-skillsets{
+    margin-bottom: 10px;
+    text-align: center;
+    border-width: 100%;
+         }
+
+ .headskill{
+    font-size: larger;
+    color: coral;
+ }
+
+#Contact-Me{
+    margin: 0 auto;
+ text-align: center;
+  }
+
+  .form-input input, textarea{
+    width: 60%;
+padding: 0.5rem;
+border-radius: 2rem;
+  }
+
+ .photo__gallery img:hover {
+  transform: scale(1.2);
+ }
+
+.smh .btn:hover{
+
+    font-size: 40px;
+    transition: 1.5s;
+}
+
+
+
+ 
